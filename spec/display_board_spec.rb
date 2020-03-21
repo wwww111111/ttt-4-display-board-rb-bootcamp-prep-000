@@ -169,7 +169,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq(" X | X | X ")
       expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq(" X | X | X ")
+      expect(rows[4]).to eq(" X | X | P ")
 
       # *** Comment the line below by adding a # at the line start ***
       expect(true).to be(true)
